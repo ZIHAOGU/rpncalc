@@ -3,8 +3,8 @@
 
 #define TOKEN_STACK_SIZE 200
 struct tokenStack {
-  int top;
-  struct lexToken *e[TOKEN_STACK_SIZE];
+	int top;
+	struct lexToken *e[TOKEN_STACK_SIZE];
 };
 
 struct tokenStack *createTokenStack();
