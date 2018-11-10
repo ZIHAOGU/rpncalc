@@ -119,7 +119,7 @@ static int op_quotient(struct tokenStack *stack) {
 	int v1, v2;
 	v1 = popInt(stack);
 	v2 = popInt(stack);
-	pushInt(stack, v1/v2);
+	pushInt(stack, v2/v1);
 	return 0;
 }
 
